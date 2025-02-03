@@ -20,13 +20,12 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./dropdown-menu";
-import { RippleButton } from "./ripple-button";
 import { ShinyButton } from "./shiny-button";
 
 const Header = () => {
   return (
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
-      <nav className="container mx-auto px-4 h-16 flex justify-between items-center">
+      <nav className="container mx-auto px-2 h-16 flex justify-between items-center">
         <Link href="/">
           <Image
             src="/logo.png"
